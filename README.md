@@ -10,6 +10,11 @@ This script automates asynchronous standup meetings on Slack by communicating wi
 - **Error Handling**: Logs unsuccessful message sends.
 - **User Profile Integration**: Retrieves user's profile image when publishing their responses.
 
+## Roadmap
+- Create a UI for editing users, schedules and messages
+- Create a date/time trigger so the bot does not need to be run manually on scheduled days
+- Have bot run headlessly so that no interaction or ide needs to be running for bot to run
+
 ## Prerequisites
 
 1. A Slack workspace and permissions to create apps.
