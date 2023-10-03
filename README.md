@@ -4,6 +4,7 @@
 This script automates asynchronous standup meetings on Slack by communicating with users based on predefined questions for specific weekdays and collects their responses.
 
 ## Features
+- **Privatly messages users, then posts replies in a public status channel**
 - **Day Specific Questions**: Specific to Monday, Wednesday, and Friday.
 - **Dynamic Reply Handling**: Understands user replies' context.
 - **Error Handling**: Logs unsuccessful message sends.
