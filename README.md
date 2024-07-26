@@ -3,6 +3,10 @@
 
 This script automates asynchronous standup meetings on Slack by communicating with users based on predefined questions for specific weekdays and collects their responses.
 
+## Current Status
+- Functionality: All features are working and was running (manually triggered) in the studio for eight months
+- Development: Currently stopped to focus on other projects
+
 ## Features
 - **Privatly messages users, then posts replies in a public status channel**
 - **Day Specific Questions**: Specific to Monday, Wednesday, and Friday.
@@ -10,7 +14,7 @@ This script automates asynchronous standup meetings on Slack by communicating wi
 - **Error Handling**: Logs unsuccessful message sends.
 - **User Profile Integration**: Retrieves user's profile image when publishing their responses.
 
-## Roadmap
+## Future Direction 
 - Create a UI for editing users, schedules and messages
 - Create a date/time trigger so the bot does not need to be run manually on scheduled days
 - Have bot run headlessly so that no interaction or ide needs to be running for bot to run
